@@ -36,3 +36,45 @@
     transform: rotate(360deg);
   }
 }
+.header{
+  background-color: #CA2422;
+  font-size: 2vw;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5vmax;
+  color: white;
+}
+.footer{
+  background-color: #CA2422;
+  color: white;
+  padding: 0.2vw;
+}
+@media(max-width:767px){
+  .header{
+
+    height: 16vw;
+    font-size: 4vmax;
+  }
+  .footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vw;
+    font-size: 2vmax;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1124px){
+  .header{
+    height: 10vmax;
+    font-size: 4vmax;
+  }
+  .footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vw;
+    font-size: 2vmax;
+  }
+}

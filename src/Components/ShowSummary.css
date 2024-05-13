@@ -1,0 +1,216 @@
+.showsummmary{
+    width: 100%;
+    min-height: 90vw;
+    display: flex;
+    flex-direction: column;
+    
+}
+.title{
+    display: flex;
+    margin: auto;
+    width: 85%;
+    justify-content: left;
+    text-align: center;
+}
+.titleinfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    text-align: center;
+    margin: 0;
+    padding: 0.2vmax;
+    gap: 0;
+    font-size: 1.3vmax;
+}
+.titleinfo h1,p{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+}
+.imagee{
+    width: 40%;
+    height: 40vmax;
+}
+.imagee img{
+   width: 100%;
+   height: 40vmax;
+}
+.summary{
+    width: 60%;
+    padding: 1vmax;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-size: 1.4vmax;
+    font-weight: 500;
+}
+.summ{
+    font-size: 1.5vmax;
+    font-weight:350;
+    color:#CA2422;
+}
+.section{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    padding: 2vmax;
+}
+button{
+    width: 20vmax;
+    background-image: linear-gradient(to right, blue, purple);
+    color: white;
+    font-size: 1vmax;
+    cursor: pointer;
+    padding: 0.8vmax;
+    border-radius: 0.4vmax;
+    outline: none;
+    border: none;
+}
+.booking-form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .booking-form h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+  
+  .booking-form p {
+    margin-bottom: 10px;
+  }
+  
+  .booking-form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+  }
+  
+  .booking-form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .booking-form button:hover {
+    background-color: #CA2422;
+  }
+  
+ 
+  
+@media(max-width:768px){
+    .booking-form {
+        padding: 15px;
+      }
+      
+      .booking-form h2 {
+        font-size: 1.3rem;
+      }
+    .showsummmary{
+        width: 100%;
+    }
+    .title{
+        justify-content: center;
+    }
+    .titleinfo{
+        font-size: 2vmax;
+    }
+    .imagee{
+        width: 80%;
+        min-height: 60vmax;
+       border:none;
+    }
+    .imagee img{
+       width: 100%;
+       height: 60vmax;
+    }
+    .main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 150vw;
+        ;
+        gap: 3vmax;
+    }
+    .summary{
+        width: 80%;
+        padding: 2vmax;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        font-size: 2vmax;
+        min-height:60vmax;
+        
+    }
+    .summ{
+        font-size: 2vmax;
+        font-weight:350;
+        
+    }
+
+    .section{
+        width: 85%;
+        margin: auto;
+        display: flex;
+        flex-direction:column;
+        justify-content:space-between;
+        padding: 2vmax;
+    }
+    button{
+        width: 32vmax;
+        font-size: 2vmax;
+       
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1124px){
+    .showsummmary{
+        width: 100%;
+        min-height: 130vw;
+    }
+    .titleinfo{
+        font-size: 2vw;
+    }
+    .main{
+        gap: 3vmax;
+    }
+    .imagee{
+        width: 60%;
+        height: 60vmax;
+    }
+    .imagee img{
+        height: 60vmax;
+    }
+    .summary{
+        font-size: 2vw;
+    }
+    .summ{
+        font-size: 1.8vw;
+    }
+    button{
+        width: 30vmax;
+        font-size: 2vmax;
+    }
+}
